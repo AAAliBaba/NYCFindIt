@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_found"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="arman.arafat.nycfindit.Found">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageViewPic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Caption/Description"
+        android:layout_below="@id/imageViewPic"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/caption"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="Location Found"
+        android:layout_below="@id/caption"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/loc_found"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:hint="Location Dropped Off"
+        android:layout_below="@id/loc_found"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/loc_dropped"/>
+
+    <Spinner
+        android:id="@+id/tags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_below="@id/loc_dropped"
+    />
+
+    <Spinner
+        android:id="@+id/boros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/tags"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@id/boros"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submit" />
+
+
+</RelativeLayout>

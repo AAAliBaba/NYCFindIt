@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NYCFindIt</string>
+    <string-array name="tags_array">
+        <item>Misc.</item>
+        <item>Clothing</item>
+        <item>Jewelry</item>
+        <item>Wallet</item>
+        <item>Bag/Purse</item>
+        <item>Electronics</item>
+        <item>Phone</item>
+    </string-array>
+    <string-array name="boro_array">
+        <item>Bronx</item>
+        <item>Brooklyn</item>
+        <item>Manhattan</item>
+        <item>Staten Island</item>
+        <item>Queens</item>
+    </string-array>
+</resources>
+

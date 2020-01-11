@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".Detail">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/pic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:id="@+id/caption"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caption"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:id="@+id/loc_found"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loc_found"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:id="@+id/loc_dropped"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loc_dropped"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:id="@+id/tag"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tag"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:id="@+id/boro"/>
+
+</RelativeLayout>
